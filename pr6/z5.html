@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5.1, 5.2</title>
+</head>
+<body>
+<script>
+    function rand(min, max){
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    <!-- Задача 5.1 -->
+    alert(rand(1, 100));
+    <!-- Задача 5.2 -->
+    let mass = new Array(10);
+    for(let  i = 0; i < mass.length;i++)
+    mass[i] = rand(1,100);
+    alert(mass);
+</script>
+</body>
+</html>

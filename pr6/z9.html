@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9.1, 9.2, 9.3, 9.4</title>
+</head>
+<body>
+<script>
+    <!-- Задача 9.1 -->
+    let str = "я учу javascript";
+    alert(str.length);
+    <!-- Задача 9.2 -->
+    alert("substr: " + str.substr(2, 3) + " " + str.substr(6,10) + '\n' + "substring: " +  str.substring(2,5) + " " + str.substring(6,16) + '\nslice: ' + str.slice(2,5) + " " + str.slice(6,16));
+    <!-- Задача 9.3 -->
+    alert(str.indexOf('учу'));
+    <!-- Задача 9.4 -->
+    let str1 = "я учу javascript!";
+    let n = 9;
+    let result;
+    if (str1.length > n){
+    result = str1.slice(0, n) + "...";
+    }
+    else {
+    result = str1;
+    }
+    alert(result);
+</script>
+</body>
+</html>
